@@ -39,3 +39,16 @@ console.log(url.includes('arya')); // means not exist
 console.log(name.split('-')); //splite on the basis of das(-) here // to break the break tthe sting
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// conversion 
+// string to number 
+let mystr = "34"
+console.log(typeof(mystr)) // string
+mystr = + "34"
+console.log(typeof(mystr)); // number
+
+// number to string
+let age = 25;
+console.log(typeof(age)); // number
+age = age + " "
+console.log(typeof(age));  // string
