@@ -38,7 +38,7 @@ console.log(url.includes('arya')); // means not exist
 
 console.log(name.split('-')); //splite on the basis of das(-) here // to break the break tthe sting
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 // conversion 
 // string to number 
