@@ -23,6 +23,16 @@ console.log(fruits); // remove the array element from the begining
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+let array1 = ["item1","item2","item3"]
+let array2 = [...array1] // this is spread operator ,is used to copy array
+console.log(array1)
+array2.push("item4") // add the element
+console.log(array2)
+
+let array3 = [...array1,"item5", "item6"] // for concatenate
+console.log(array3);
+
+
 
 
 
