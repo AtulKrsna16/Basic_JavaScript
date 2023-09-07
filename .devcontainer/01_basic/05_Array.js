@@ -33,6 +33,25 @@ let array3 = [...array1,"item5", "item6"] // for concatenate
 console.log(array3);
 
 
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+// for loop in array
+let fruits = ["Apple","Banana","Chiku","graps"]
+for (i=0;i<fruits.length;i++){
+    // console.log(fruits[i])
+    // console.log(fruits[i].toUpperCase());
+}
+// to push the all array into other array
+let fruits2 = []
+for (i=0; i<fruits.length; i++){
+    fruits2.push(fruits)
+}
+console.log(fruits2);
+
+
+
+
+
 
 
 
