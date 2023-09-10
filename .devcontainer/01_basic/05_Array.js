@@ -49,6 +49,21 @@ for (i=0; i<fruits.length; i++){
 console.log(fruits2);
 
 
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+const array4 = [1,2,3,4,5,6,7,[3,4,5],[6,7,8,[9,10]]]
+const another_array = array4.flat(Infinity) //
+console.log(another_array);
+
+
+console.log(Array.isArray("atul")) // this is not an arary
+console.log(Array.from("atul")) //  this is an array ...from keyword is used to convert into array
+console.log(Array.from({name : "atul"})) // this is an interesting
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+console.log(Array.of(score1,score2,score3)); // convert into string
 
 
 
