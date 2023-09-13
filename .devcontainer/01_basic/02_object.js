@@ -59,3 +59,25 @@ const regularUser = {
 
     const {courseInstructor : Instructor} = course
     console.log(Instructor);
+    function addTwoNumbers(number1 , number2){
+    return number1 + number2;
+}
+
+const result = addTwoNumbers(3,5)
+console.log(result);
+
+// another example
+function loginUserMessage(username = "Hi Atul"){
+    if (!username){
+        console.log("please enter a username");
+        return;
+    }
+    return `${username} just logged in`
+}
+console.log(loginUserMessage()); // if you are not return any value
+console.log(loginUserMessage("Atul")); // just return some value
+
+function calculateCartPrice (...num1){   //take all the value 
+return num1
+}
+console.log(calculateCartPrice(200,300,400));
