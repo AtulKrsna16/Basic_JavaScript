@@ -1,0 +1,37 @@
+const user = {
+    username : "atul",
+    email : "atul@1223",
+    price : 9999,
+
+    welcomeMessage : function(){
+        console.log(`${this.username} , welcome to website`)
+        console.log(this);
+    }
+}
+
+user.welcomeMessage()
+console.log(this);
+
+
+// Arrow function
+
+const name  = function(){
+    let username = "Atul"
+    console.log(this.username);
+
+}
+
+const name1 = () => {
+    let username = "Atul"
+    console.log(this.username)
+}
+
+
+// const addTwoNumbers =  (num1 ,  num2) => {
+//     return num1 + num2
+// }
+    const addTwoNumbers =  (num1 ,  num2) => (num1 + num2) //implicite arrow function
+console.log(addTwoNumbers(3,4));
+
+const obj =  () => ( {username : "Atul"} )
+console.log(obj());
